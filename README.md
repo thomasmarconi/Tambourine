@@ -1,2 +1,11 @@
-# Tambourine
-New Music Suggestion Tool that tracks the music and songs you are listening to and then generates suggestions. Pulls what you have previously listened to and then creates playlists with that information.  Get exposed to new music! (Essentially a wrapper for the Spotify API.)
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+## npm run dev

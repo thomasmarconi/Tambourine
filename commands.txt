@@ -1,0 +1,16 @@
+Get Access Token:
+curl -X POSTe: application/x-www-form-urlencoded"      -d "grant_type=client_credentials&client_id=c5cb0a3d433e4586ae9b2b16ac226e4d&client_secret=30fc5c9d9af04524be1e5ffc30a0fcbe"
+
+Access Token:
+{"access_token":"BQAc0ztfla84FPeb1Q9Fi8evWSOb-_4ENWDscLhChG5O1iCmEJFQZHBpkUZlxPHEuT7RG4prgmgiNOr_RLtprUKarA5TgrlDmvIToj-I69LLzQgucKM",
+"token_type":"Bearer","expires_in":3600}
+
+Get Atrist Info:
+curl "https://api.spotify.com/v1/artists/[SpotifyID]" -H "Authorization: Bearer [access_token]"
+
+aka:
+curl "https://api.spotify.com/v1/artists/13ZEDW6vyBF12HYcZRr4EV?si=ja3XPSLSR3KiLWJC7olCXg" -H "Authorization: Bearer  BQAc0ztfla84FPeb1Q9Fi8evWSOb-_4ENWDscLhChG5O1iCmEJFQZHBpkUZlxPHEuT7RG4prgmgiNOr_RLtprUKarA5TgrlDmvIToj-I69LLzQgucKM"
+
+Spotify ID's:
+    Tyler Childers:
+    13ZEDW6vyBF12HYcZRr4EV?si=ja3XPSLSR3KiLWJC7olCXg
